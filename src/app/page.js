@@ -14,11 +14,11 @@ export default function Home() {
         setResults(filteredResults);
     };
     return (
-        <div className='flex flex-col font-mono justify-center items-center'>
-            <h1 className='text-2xl mt-2 font-bold text-white gradiant'>Welcome to Bsc.IT Result Portal</h1>
+        <div className='flex flex-col font-mono justify-center items-center px-1'>
+            <h1 className='lg:text-2xl mt-2 font-bold text-white gradiant'>Welcome to Bsc.IT Result Portal</h1>
             
             <input
-                className=' p-2 w-1/2 mt-4'
+                className='w-full p-2 mx-4 mt-4 lg:w-1/2'
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
